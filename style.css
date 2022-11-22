@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: 'Luxurious Script', cursive;
+}
+
+.navwrapper {
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, .5)), url(pc9.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftnavlogo {
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.leftnavlogo h2 {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'Luxurious Script', cursive;
+}
+
+.leftnavlogo .svg {
+    width: 50px;
+    height: 50px;
+    filter: invert(60%) sepia(10%) saturate(200%) hue-rotate(200deg);
+}
+
+.rightnav {
+    margin-right: 50px;
+}
+
+.rightnav ul {
+    display: flex;
+}
+
+.rightnav ul li {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    margin-left: 40%;
+
+
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.socials img {
+    color: black;
+    height: 50px;
+    margin: 10px
+}
+
+.copyright p {
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
